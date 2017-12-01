@@ -1,0 +1,29 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_incident",
+    "intent_incident_status",
+    "intent_Software Installation",
+    "intent_Add Member to DL",
+    "entity_incidentNumber",
+    "entity_Software",
+    "entity_description",
+    "entity_userName",
+    "entity_groupName",
+    "slot_Software_0",
+    "slot_description_0",
+    "slot_groupName_0",
+    "slot_incidentNumber_0",
+    "slot_userName_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_action_incident_status",
+    "prev_action_incident",
+    "prev_utter_goodbye",
+    "prev_utter_ask_software",
+    "prev_action_CreateServiceRequest",
+    "prev_utter_ask_incidentNumber"
+  ]
+}

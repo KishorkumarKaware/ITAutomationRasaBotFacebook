@@ -1,0 +1,48 @@
+action_factory: null
+actions:
+- utter_greet
+- actions.ActionIncidentStatus
+- actions.ActionCreateIncident
+- utter_goodbye
+- utter_ask_software
+- actions.ActionCreateServiceRequest
+- utter_ask_incidentNumber
+config:
+  store_entities_as_slots: true
+entities:
+- incidentNumber
+- Software
+- description
+- userName
+- groupName
+intents:
+- greet
+- goodbye
+- incident
+- incident_status
+- Software Installation
+- Add Member to DL
+slots:
+  Software:
+    type: text
+  description:
+    type: text
+  groupName:
+    type: text
+  incidentNumber:
+    type: text
+  userName:
+    type: text
+templates:
+  utter_ask_description:
+  - text: Please help us with issue description.
+  utter_ask_incidentNumber:
+  - text: Please provide ticket ID.(Ex. 286).
+  utter_ask_software:
+  - text: Sure! Let me know the software name that you want to install
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hello! I am your IT Service Desk Virtual Assistant *Robin* :) . I can help
+      you with IT service related issues and requests. How may I help you today?
+topics: []

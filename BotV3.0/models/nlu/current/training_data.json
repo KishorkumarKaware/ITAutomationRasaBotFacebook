@@ -1,0 +1,244 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "MS Office",
+            "entity": "Software"
+          }
+        ],
+        "text": "install MS Office"
+      },
+      {
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Oracle",
+            "entity": "Software"
+          }
+        ],
+        "text": "install Oracle on my machine"
+      },
+      {
+        "intent": "incident_status",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "00000309",
+            "entity": "incidentNumber"
+          }
+        ],
+        "text": "status of my ticket 00000309"
+      },
+      {
+        "intent": "incident",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "i am facing issue with laptop",
+            "entity": "description"
+          }
+        ],
+        "text": "i am facing issue with laptop"
+      },
+      {
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 35,
+            "end": 48,
+            "value": "nfrastructure",
+            "entity": "groupName"
+          },
+          {
+            "start": 4,
+            "end": 30,
+            "value": "deepak.bhasme@vyomlabs.com",
+            "entity": "userName"
+          }
+        ],
+        "text": "Add deepak.bhasme@vyomlabs.com to infrastructure"
+      },
+      {
+        "intent": "incident",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "i am facing issue with pc",
+            "entity": "description"
+          }
+        ],
+        "text": "i am facing issue with pc"
+      },
+      {
+        "intent": "AddMemberDL",
+        "entities": [
+          {
+            "start": 4,
+            "end": 31,
+            "value": "manish.sakhare@vyomlabs.com",
+            "entity": "userName"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "testDL",
+            "entity": "groupName"
+          }
+        ],
+        "text": "Add manish.sakhare@vyomlabs.com to testDL"
+      },
+      {
+        "intent": "incident_status",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "00000401",
+            "entity": "incidentNumber"
+          }
+        ],
+        "text": "status of my ticket 00000401"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 4,
+            "end": 29,
+            "value": "ayush.ranjan@vyomlabs.com",
+            "entity": "userName"
+          },
+          {
+            "start": 33,
+            "end": 45,
+            "value": "DeepLearning",
+            "entity": "groupName"
+          }
+        ],
+        "text": "Add ayush.ranjan@vyomlabs.com to DeepLearning"
+      },
+      {
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 35,
+            "end": 37,
+            "value": "DL",
+            "entity": "groupName"
+          },
+          {
+            "start": 4,
+            "end": 31,
+            "value": "pradnya.pujari@vyomlabs.com",
+            "entity": "userName"
+          }
+        ],
+        "text": "Add pradnya.pujari@vyomlabs.com to DL"
+      },
+      {
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Java",
+            "entity": "Software"
+          }
+        ],
+        "text": "install Java on my machine"
+      },
+      {
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Python",
+            "entity": "Software"
+          }
+        ],
+        "text": "install Python on my machine"
+      },
+      {
+        "intent": "incident_status",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "00000401",
+            "entity": "incidentNumber"
+          }
+        ],
+        "text": "i want to know status of my ticket 00000401"
+      },
+      {
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Java ",
+            "entity": "Software"
+          }
+        ],
+        "text": "Java "
+      },
+      {
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "JDK",
+            "entity": "Software"
+          }
+        ],
+        "text": "JDK"
+      },
+      {
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Oracle",
+            "entity": "Software"
+          }
+        ],
+        "text": "Oracle"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

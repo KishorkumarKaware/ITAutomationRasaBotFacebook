@@ -1,0 +1,51 @@
+slots:
+  incidentNumber:
+    type: text
+  Software:
+    type: text
+  description:
+    type: text
+  userName:
+    type: text
+  groupName:
+    type: text
+    
+    
+entities:
+ - incidentNumber
+ - Software
+ - description
+ - userName
+ - groupName
+
+intents:
+  - greet
+  - goodbye
+  - incident
+  - incident_status
+  - Software Installation
+  - Add Member to DL
+
+templates:
+  utter_greet:
+  - text: "Hello! I am your IT Service Desk Virtual Assistant *Robin* :) . I can help you with IT service related issues and requests. How may I help you today?"
+  utter_ask_description:
+  - text: "Please help us with issue description."
+  utter_ask_incidentNumber:
+  - text: "I will get that to you...Please tell me ticket ID.(Ex. 00000286)."
+  utter_ask_software:
+  - text: "Sure! Let me know the software name that you want to install"
+  
+  
+  utter_goodbye:
+  - text: "Bye"
+
+actions:
+  - utter_greet
+  - actions.ActionIncidentStatus
+  - actions.ActionCreateIncident
+  - utter_goodbye
+  - utter_ask_software
+  - actions.ActionCreateServiceRequest
+  - utter_ask_incidentNumber
+  

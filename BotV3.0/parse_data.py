@@ -1,0 +1,1 @@
+from rasa_core.processor import _parse_message

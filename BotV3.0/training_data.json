@@ -1,0 +1,314 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "install MS Office",
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "MS Office",
+            "entity": "Software"
+          }
+        ]
+      },
+      {
+        "text": "install Oracle on my machine",
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Oracle",
+            "entity": "Software"
+          }
+        ]
+      },
+      {
+        "text": "status of my ticket 00000309",
+        "intent": "incident_status",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "00000309",
+            "entity": "incidentNumber"
+          }
+        ]
+      },
+      {
+        "text": "i am facing issue with laptop",
+        "intent": "incident",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "i am facing issue with laptop",
+            "entity": "description"
+          }
+        ]
+      },
+      {
+        "text": "Add deepak.bhasme@vyomlabs.com to infrastructure",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 35,
+            "end": 48,
+            "value": "nfrastructure",
+            "entity": "groupName"
+          },
+          {
+            "start": 4,
+            "end": 30,
+            "value": "deepak.bhasme@vyomlabs.com",
+            "entity": "userName"
+          }
+        ]
+      },
+      {
+        "text": "i am facing issue with pc",
+        "intent": "incident",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "i am facing issue with pc",
+            "entity": "description"
+          }
+        ]
+      },
+      {
+        "text": "Add manish.sakhare@vyomlabs.com to testDL",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 4,
+            "end": 31,
+            "value": "manish.sakhare@vyomlabs.com",
+            "entity": "userName"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "testDL",
+            "entity": "groupName"
+          }
+        ]
+      },
+      {
+        "text": "status of my ticket 00000401",
+        "intent": "incident_status",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "00000401",
+            "entity": "incidentNumber"
+          }
+        ]
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Add ayush.ranjan@vyomlabs.com to DeepLearning",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 4,
+            "end": 29,
+            "value": "ayush.ranjan@vyomlabs.com",
+            "entity": "userName"
+          },
+          {
+            "start": 33,
+            "end": 45,
+            "value": "DeepLearning",
+            "entity": "groupName"
+          }
+        ]
+      },
+      {
+        "text": "Add pradnya.pujari@vyomlabs.com to DL",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 35,
+            "end": 37,
+            "value": "DL",
+            "entity": "groupName"
+          },
+          {
+            "start": 4,
+            "end": 31,
+            "value": "pradnya.pujari@vyomlabs.com",
+            "entity": "userName"
+          }
+        ]
+      },
+      {
+        "text": "install Java on my machine",
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Java",
+            "entity": "Software"
+          }
+        ]
+      },
+      {
+        "text": "install Python on my machine",
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Python",
+            "entity": "Software"
+          }
+        ]
+      },
+      {
+        "text": "i want to know status of my ticket 00000401",
+        "intent": "incident_status",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "00000401",
+            "entity": "incidentNumber"
+          }
+        ]
+      },
+      {
+        "text": "Java ",
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Java ",
+            "entity": "Software"
+          }
+        ]
+      },
+      {
+        "text": "JDK",
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "JDK",
+            "entity": "Software"
+          }
+        ]
+      },
+      {
+        "text": "Oracle",
+        "intent": "Software Installation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Oracle",
+            "entity": "Software"
+          }
+        ]
+      },
+      {
+        "text": "deepak.bhasme@vyomlabs.com",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "deepak.bhasme@vyomlabs.com",
+            "entity": "userName"
+          }
+        ]
+      },
+      {
+        "text": "ayush.ranjan@vyomlabs.com",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "ayush.ranjan@vyomlabs.com",
+            "entity": "userName"
+          }
+        ]
+      },
+      {
+        "text": "manish.sakhare@vyomlabs.com",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "manish.sakhare@vyomlabs.com",
+            "entity": "userName"
+          }
+        ]
+      },
+      {
+        "text": "DeepLearning",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "DeepLearning",
+            "entity": "groupName"
+          }
+        ]
+      },
+      {
+        "text": "MachineLearning",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "MachineLearning",
+            "entity": "groupName"
+          }
+        ]
+      },
+      {
+        "text": "DL",
+        "intent": "Add Member to DL",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "DL",
+            "entity": "groupName"
+          }
+        ]
+      }
+    ]
+  }
+}
